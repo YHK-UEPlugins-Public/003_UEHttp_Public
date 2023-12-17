@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{5BDF5E2A-43BF-73DB-45C4-EA9C7452EF35}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UEHttpDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UEHttp",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintGraphScreenshot",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/5c1173b4187a4ef89623d96e1fe61042"
+		}
+	]
+}
